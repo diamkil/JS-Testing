@@ -4,7 +4,7 @@
   "description": "Doing some testing with the Vue.js framework",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
