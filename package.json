@@ -20,7 +20,7 @@
     "jest": "^26.4.0"
   },
   "dependencies": {
-    "@vue/cli-service": "^4.5.3",
+    "@vue/cli-service": "^4.1.0",
     "vue": "^2.6.11"
   }
 }
