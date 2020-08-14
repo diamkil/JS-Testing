@@ -4,10 +4,8 @@
   "description": "Doing some testing with the Vue.js framework",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests",
-    "test-ci": "jest --ci --reporters=default --reporters=jest-junit",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "test": "jest",
+    "test-ci": "jest --ci --reporters=default --reporters=jest-junit"
   },
   "jest": {
     "verbose": true,
