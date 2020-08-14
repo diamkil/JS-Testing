@@ -16,6 +16,14 @@
       "jest-junit"
     ]
   },
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "output": "./junit.xml",
+    "classNameTemplate": "{classname}-{title}",
+    "titleTemplate": "{classname}-{title}",
+    "ancestorSeparator": " › ",
+    "usePathForSuiteName": "true"
+  },
   "keywords": [
     "Vuejs"
   ],
