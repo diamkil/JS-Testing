@@ -1,4 +1,4 @@
-const divide = require('../src/math/divide');
+const divide = require('../../src/math/divide');
 
 test('divides 10 / 5 to equal 2', () => {
   expect(divide(10, 5)).toBe(2);
