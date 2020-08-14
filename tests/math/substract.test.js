@@ -1,4 +1,4 @@
-const substract = require('../src/substract');
+const substract = require('../src/math/substract');
 
 test('substracts 2 - 1 to equal 1', () => {
   expect(substract(2, 1)).toBe(1);
