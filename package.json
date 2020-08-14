@@ -1,7 +1,7 @@
 {
   "name": "vuejs-testing",
   "version": "1.0.0",
-  "description": "Doing some testing with the Vue.js framework",
+  "description": "Doing some testing with JS",
   "main": "index.js",
   "scripts": {
     "test": "jest",
