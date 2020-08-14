@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest ; xunit-viewer -r junit.xml -o junit.html",
-    "test-ci": "jest --ci --reporters=default --reporters=jest-junit"
+    "test-ci": "jest --ci --reporters=default --reporters=jest-junit ; xunit-viewer -r junit.xml -o junit.html"
   },
   "jest": {
     "verbose": true,
