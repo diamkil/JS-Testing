@@ -28,8 +28,5 @@
     "jest": "^26.4.0",
     "jest-junit": "^11.1.0"
   },
-  "dependencies": {
-    "@vue/cli-service": "4.5.3",
-    "vue": "2.6.11"
-  }
+  "dependencies": {}
 }
