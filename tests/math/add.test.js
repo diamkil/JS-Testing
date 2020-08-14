@@ -1,7 +1,7 @@
 const add = require('../../src/math/add');
 
 test('adding two numbers to give a positive number (w/o decimals)', () => {
-	expect(add(1, 2)).toBe(3);
+	expect(add(1, 2)).toBe(34);
 });
 
 test('adding two numbers to give a negative number (w/o decimals)', () => {

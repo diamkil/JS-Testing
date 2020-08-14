@@ -4,7 +4,7 @@
   "description": "Doing some testing with JS",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest ; xunit-viewer -r junit.xml -o junit.html",
     "test-ci": "jest --ci --reporters=default --reporters=jest-junit"
   },
   "jest": {
@@ -17,8 +17,6 @@
   "jest-junit": {
     "suiteName": "jest tests",
     "output": "./junit.xml",
-    "classNameTemplate": "{classname}-{title}",
-    "titleTemplate": "{classname}-{title}",
     "ancestorSeparator": " › ",
     "usePathForSuiteName": "true"
   },
@@ -31,7 +29,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.6.0",
     "jest": "^26.4.0",
-    "jest-junit": "^11.1.0"
+    "jest-junit": "^11.1.0",
+    "xunit-viewer": "^6.3.9"
   },
   "dependencies": {}
 }
