@@ -30,7 +30,7 @@
     "eslint": "^7.8.1",
     "jest": "^26.4.2",
     "jest-junit": "^11.1.0",
-    "xunit-viewer": "^7.0.1"
+    "xunit-viewer": "^7.1.3"
   },
   "dependencies": {}
 }
