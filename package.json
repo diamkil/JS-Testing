@@ -28,7 +28,7 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.8.1",
-    "jest": "^26.4.2",
+    "jest": "^27.0.5",
     "jest-junit": "^11.1.0",
     "xunit-viewer": "^7.0.1"
   },
